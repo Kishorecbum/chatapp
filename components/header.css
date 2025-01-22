@@ -1,0 +1,15 @@
+.header{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    font-family:cursive;
+}
+h2{
+    background-color: rgb(2, 1, 1);
+    color: rgb(255, 255, 255);
+    padding: 0px 10px;
+   
+}
+.firstletter{
+    font-size: 60px;
+    color: rgb(71, 177, 83);
+   
+}

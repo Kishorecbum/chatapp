@@ -1,0 +1,28 @@
+.private-chat-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 180px 0;
+    gap: 20px;
+    font-family: cursive;
+}
+.private-chat-login input{
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid rgb(220, 213, 213);
+}
+.private-chat-login button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(17, 48, 187);
+    color: rgb(250, 250, 250);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.private-chat-login button:hover{
+    background-color: blue;
+}

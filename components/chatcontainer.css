@@ -1,0 +1,66 @@
+.chatheader{
+    display: flex;
+    justify-content: space-between;
+    padding:0px 30px;
+    
+  
+   
+}
+
+.chatlogout{
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(8, 73, 75);
+    border: none;
+    cursor: pointer;
+    
+}
+h4{
+    font-size: 19px;
+    background-color: rgb(6, 77, 81);
+    color: rgb(203, 192, 197);
+    padding: 10px;
+    border-radius: 10px;                
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.username{
+    color: rgb(226, 221, 221);
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.chatdiv{
+    background-color: rgb(135, 147, 147);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.chatoption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin:265px 0;
+    
+}
+.chatoption button{
+    padding: 20px 40px;
+    font-size: 20px;
+    background-color: rgb(5, 9, 122);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.chatoption button:hover{
+    background-color: rgb(43, 51, 113);
+    font-size: 22px;
+    
+}
+
+

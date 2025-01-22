@@ -1,0 +1,96 @@
+.chatsender{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+
+.chatsender p{
+    padding: 10px;
+    background-color: rgb(6, 33, 241);
+    border-radius: 10px;
+    margin: 15px;
+    max-width: 100%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.chatreceiver{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.chatreceiver p{
+    padding:10px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    max-width: 60%;
+    color: white;
+    margin: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.chats_list{
+    height: 68vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    
+}
+.chat-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .chat-files {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .chat-file-image {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .chat-file-video {
+    width: 150px;
+    border-radius: 8px;
+  }
+  
+  .chat-file-link {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #f5f5f5;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+  }
+  .chat-file-wrapper {
+    margin-top: 10px;
+  }
+  
+  .chat-file-image, .chat-file-video {
+    display: block;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  .chat-file-download {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  
+  .chat-file-download:hover {
+    background-color: #0056b3;
+  }
+  
